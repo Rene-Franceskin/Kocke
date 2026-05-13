@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	<meta charset="utf-8"/>
+	<title>Kocke</title>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="head">KOCKE</div>
+
+	<div id="vse">
+		<form action="igra.php" method="POST">
+			<div class="igralci-wrapper">
+				<div class="igralci">
+					<h2>1. IGRALEC</h2>
+					<div class="separator"></div>
+
+					<label for="ime1" class="ime-label">Ime</label>
+					<input id="ime1" type="text" name="ime1" placeholder="Vnesi ime..." maxlength="40" required/>
+
+					<label for="priimek1" class="ime-label">Priimek</label>
+					<input id="priimek1" type="text" name="priimek1" placeholder="Vnesi priimek..." maxlength="30" required/>
+
+					<label for="naslov1" class="ime-label">Naslov</label>
+					<input id="naslov1" type="text" name="naslov1" placeholder="Vnesi naslov..." maxlength="30" required/>
+				</div>
+
+				<div class="igralci">
+					<h2>2. IGRALEC</h2>
+					<div class="separator"></div>
+
+					<label for="ime2" class="ime-label">Ime</label>
+					<input id="ime2" type="text" name="ime2" placeholder="Vnesi ime..." maxlength="40" required/>
+
+					<label for="priimek2" class="ime-label">Priimek</label>
+					<input id="priimek2" type="text" name="priimek2" placeholder="Vnesi priimek..." maxlength="30" required/>
+
+					<label for="naslov2" class="ime-label">Naslov</label>
+					<input id="naslov2" type="text" name="naslov2" placeholder="Vnesi naslov..." maxlength="30" required/>
+				</div>
+
+				<div class="igralci">
+					<h2>3. IGRALEC</h2>
+					<div class="separator"></div>
+
+					<label for="ime3" class="ime-label">Ime</label>
+					<input id="ime3" type="text" name="ime3" placeholder="Vnesi ime..." maxlength="40" required/>
+
+					<label for="priimek3" class="ime-label">Priimek</label>
+					<input id="priimek3" type="text" name="priimek3" placeholder="Vnesi priimek..." maxlength="30" required/>
+
+					<label for="naslov3" class="ime-label">Naslov</label>
+					<input id="naslov3" type="text" name="naslov3" placeholder="Vnesi naslov..." maxlength="30" required/>
+				</div>
+			</div>
+
+			<div id="vseIgra">
+				<div class="igra" style="flex: 0 0 auto;">
+					<input type="submit" value="IGRAJ"/>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<div id="footer">&copy; Rene Frančeškin &mdash; 4. Ra</div>
+</body>
+</html>
