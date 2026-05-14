@@ -18,10 +18,10 @@ Naloga uporablja PHP seje (`$_SESSION`) za prenos podatkov med stranmi.
 
 ## Uporabljene tehnologije
 
-- **PHP** - generiranje naključnih števil, obdelava obrazca, seje
-- **HTML5** - obrazec z obveznimi vnosi
-- **CSS3** - postavitev (CSS Grid `repeat(3, 1fr)`), animacije (`@keyframes`)
-- **JavaScript (vanilla)** - zamenjava slik kock, odštevalnik in JS preusmeritev
+- **PHP**
+- **HTML5**
+- **CSS3** 
+- **JavaScript**
 
 ## Pravila
 
