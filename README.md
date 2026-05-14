@@ -1,5 +1,4 @@
-# 🎲 Kocke
-
+<h1 align="center">🎲 Kocke</h1>
 Spletna PHP simulacija igre s tremi igralnimi kockami za tri igralce. Vsak igralec
 vnese svoje podatke (ime, priimek, naslov), nato se zanj naključno vržejo tri
 kocke. Igralec z najvišjim seštevkom zmaga; v primeru izenačenja se izpišejo vsi
